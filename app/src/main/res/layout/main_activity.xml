@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/appbg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Resep Hari Ini"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/food_1"
+            android:contentDescription="Food1" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/food_2"
+            android:contentDescription="Food2" />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/food_3"
+            android:contentDescription="Food3" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/food_4"
+            android:contentDescription="Food4" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/detailBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Click to view Detail"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
