@@ -17,10 +17,11 @@
 
     <TextView
         android:layout_height="130dp"
-        android:layout_width="195dp"
+        android:layout_width="190dp"
         android:text="Ikan Balado\n\nGurih dan Pedas"
         android:gravity="center"
-        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
         android:textColor="@color/black"/>
 
     <ImageView
@@ -34,7 +35,8 @@
         android:layout_width="195dp"
         android:text="Pancake\n\nManis dan Segar"
         android:gravity="center"
-        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
         android:textColor="@color/black"/>
 
     <ImageView
@@ -48,7 +50,8 @@
         android:layout_width="200dp"
         android:text="Sop Ayam\n\nGurih dan Hangat"
         android:gravity="center"
-        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
         android:textColor="@color/black"/>
 
     <ImageView
@@ -61,7 +64,8 @@
         android:layout_width="200dp"
         android:text="Telor Kecap\n\nManis dan Asin"
         android:gravity="center"
-        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
         android:textColor="@color/black"/>
 
 

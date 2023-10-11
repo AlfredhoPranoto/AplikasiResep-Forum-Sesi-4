@@ -13,8 +13,9 @@
         android:layout_height="wrap_content"
         android:text="Rekomendasi Resep Hari Ini"
         android:layout_marginTop="20dp"
+        android:layout_gravity="center"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="28sp" />
 
     <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
