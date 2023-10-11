@@ -16,12 +16,12 @@
         android:src="@drawable/food_1" />
 
     <TextView
-        android:layout_height="130dp"
-        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:text="Ikan Balado\n\nGurih dan Pedas"
         android:gravity="center"
         android:layout_gravity="center"
-        android:textSize="18sp"
+        android:textSize="17sp"
         android:textColor="@color/black"/>
 
     <ImageView
@@ -31,8 +31,8 @@
         android:src="@drawable/food_2" />
 
     <TextView
-        android:layout_height="130dp"
-        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:text="Pancake\n\nManis dan Segar"
         android:gravity="center"
         android:layout_gravity="center"
@@ -46,8 +46,8 @@
         android:src="@drawable/food_3" />
 
     <TextView
-        android:layout_height="130dp"
-        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:text="Sop Ayam\n\nGurih dan Hangat"
         android:gravity="center"
         android:layout_gravity="center"
@@ -60,8 +60,8 @@
         android:src="@drawable/food_4" />
 
     <TextView
-        android:layout_height="130dp"
-        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:text="Telor Kecap\n\nManis dan Asin"
         android:gravity="center"
         android:layout_gravity="center"
