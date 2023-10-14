@@ -15,13 +15,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main_activity);
 
         detailBtn = findViewById(R.id.detailBtn);
 
+
+//        detailBtn.onClickListener{
+//            Intent intent = new Intent(this, DetailActivity.class );
+//            startActivity(intent);
+//        }
+
         detailBtn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, DetailActivity.class));
+                Intent intent = new Intent(MainActivity.this,DetailActivity.class);
+                startActivity(intent);
             }
         });
 
